@@ -12,3 +12,19 @@ from Cryptodome.Cipher import AES
 open('aaa.txt')
 open('/data/bbb.txt')
 open('D:\\user\\ccc.txt')
+————————————————
+
+b" "前缀表示：后面字符串是bytes 类型。
+
+用处：
+
+网络编程中，服务器和浏览器只认bytes 类型数据。
+
+如：send 函数的参数和 recv 函数的返回值都是 bytes 类型
+
+附：
+
+在 Python3 中，bytes 和 str 的互相转换方式是
+str.encode('utf-8')
+bytes.decode('utf-8')
+
