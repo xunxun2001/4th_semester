@@ -7,3 +7,8 @@
 
 pip install pycryptodomex
 from Cryptodome.Cipher import AES
+————————————————
+
+open('aaa.txt')
+open('/data/bbb.txt')
+open('D:\\user\\ccc.txt')
