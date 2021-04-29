@@ -1,0 +1,7 @@
+SELECT `SNO`
+FROM choose
+WHERE CourseID = "C1"
+UNION 
+SELECT `SNO`
+FROM choose
+WHERE CourseID = "C3"
