@@ -1,6 +1,7 @@
 /*
 因为密码学的特殊要求，快速幂取模必须底数和指数均上百位，使用python则需要自行写两个List进行更加复杂的高精度运算
 因此使用Java语言调用BigInteger类
+python版本（底数不能太大，懒得写两个list）见leetcode 372
 */
 import java.math.*;
 import java.util.*;
